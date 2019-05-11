@@ -1,0 +1,26 @@
+{
+  "name": "dja-fe-assets",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Frontend asset handling and preprocessing for stylesheets and JavaScript",
+  "repository": "https://github.com/dan-dja/dja-fe-assets",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.10"
+  },
+  "scripts": {
+    "prestart": "npm install"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}

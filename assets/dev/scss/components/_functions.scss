@@ -1,0 +1,5 @@
+$browser-content: 16;	// Default
+
+@function pxToEm($pixels, $content: $browser-content) {
+	@return #{$pixels/$content}em;
+}

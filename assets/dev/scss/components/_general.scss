@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	font-size: pxToEm(14);
+}
+
+.content {
+	max-width: $maxContainerWidth;
+	margin: 0 auto;
+}
+
+.mobile {
+	display: none;
+}
+
+.clear {
+	display: block;
+	clear: both;
+}
+
+.block {
+	display: block;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
